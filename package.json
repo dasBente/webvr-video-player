@@ -1,0 +1,29 @@
+{
+  "name": "webvr-video-player",
+  "version": "0.1.0",
+  "description": "A simple video player to render videos on a screen in Web VR.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dasbente/webvr-video-player.git"
+  },
+  "keywords": [
+    "webvr",
+    "video"
+  ],
+  "author": "dasbente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasbente/webvr-video-player/issues"
+  },
+  "homepage": "https://github.com/dasbente/webvr-video-player#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
