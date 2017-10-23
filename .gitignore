@@ -8,3 +8,6 @@ node_modules/
 # Ignore videos
 *.mkv
 *.mp4
+
+# Webpack
+*.bundle.js
