@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/video', function (req, res) {
-    const path = 'public/video/sample.mkv';
+    const path = 'public/sample.mkv';
     const stat = fs.statSync(path);
     const fileSize = stat.size;
     const range = req.header.range;
