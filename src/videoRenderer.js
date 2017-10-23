@@ -38,8 +38,8 @@ function init() {
     alert(video.width +" x "+ video.height);
 
     image = document.createElement('canvas');
-    image.width = 1920;
-    image.height = 1080;
+    image.width = window.width;
+    image.height = window.height;
 
     imageContext = image.getContext('2d');
     imageContext.fillStyle = '#000000';
