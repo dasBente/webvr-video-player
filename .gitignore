@@ -7,3 +7,4 @@ node_modules/
 
 # Ignore videos
 *.mkv
+*.mp4
