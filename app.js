@@ -16,7 +16,7 @@ app.get('/video', function (req, res) {
 app.use(function (req, res, next) {
     let err = new Error('Not found');
     err.status = 404;
-    next.err;
+    next(err);
 });
 
 app.use(function (err, req, res, next) {

@@ -3,9 +3,7 @@ let app = require('./app.js');
 // TODO normalization/ error handling
 const port = process.env.PORT || 8080;
 
-app.listen(port);
-
-app.on('listening', function () {
+app.listen(port, function () {
     console.log('Listening on port '+ port +'!');
 });
 
