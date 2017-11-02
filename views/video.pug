@@ -1,9 +1,12 @@
 extends layout
 
+block styles
+  link(rel="stylesheet" type="text/css" href="/video.css")
+
 block scripts
   script(src="/video.bundle.js")
 
 block content 
   video#video(width="640" height="480" controls)
     source(src="http://localhost:8080/video")
-    Your browser does not support the video tag!
+    | Your browser does not support the video tag!
