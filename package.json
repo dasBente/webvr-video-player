@@ -22,9 +22,12 @@
   "homepage": "https://github.com/dasbente/webvr-video-player#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "jquery": "^3.2.1",
     "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
+    "imports-loader": "^0.7.1",
+    "three": "^0.87.1",
     "webpack": "^3.8.1"
   }
 }
