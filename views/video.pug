@@ -7,6 +7,6 @@ block scripts
   script(src="/video.bundle.js")
 
 block content 
-  video#video(width="640" height="480" controls)
+  video#video(width="100%" height="100%" autoplay controls)
     source(src="http://localhost:8080/video")
     | Your browser does not support the video tag!
